@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "611a785b1a82cf86fde33b59"
+  },
+  "code": 1,
+  "title": "Laptop"
+},{
+  "_id": {
+    "$oid": "611a78771a82cf86fde33b5a"
+  },
+  "code": 2,
+  "title": "Mobile"
+},{
+  "_id": {
+    "$oid": "611a78811a82cf86fde33b5b"
+  },
+  "code": 3,
+  "title": "Tablet"
+},{
+  "_id": {
+    "$oid": "611a789b1a82cf86fde33b5c"
+  },
+  "code": 4,
+  "title": "Printer"
+},{
+  "_id": {
+    "$oid": "611a78a91a82cf86fde33b5d"
+  },
+  "code": 5,
+  "title": "Scanner"
+},{
+  "_id": {
+    "$oid": "611a78ae1a82cf86fde33b5e"
+  },
+  "code": 6,
+  "title": "Camera"
+}]

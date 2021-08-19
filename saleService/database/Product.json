@@ -1,0 +1,244 @@
+[{
+  "_id": {
+    "$oid": "611a75b71a82cf86fde33b4c"
+  },
+  "title": "ZenBook",
+  "brand": "ASUS",
+  "code": 2,
+  "registerDate": {
+    "$date": "2021-08-15T19:30:00Z"
+  },
+  "category": 2,
+  "isDeleted": false
+},{
+  "_id": {
+    "$oid": "611a75c11a82cf86fde33b4d"
+  },
+  "title": "Aspire",
+  "brand": "Acer",
+  "code": 3,
+  "registerDate": {
+    "$date": "2021-08-15T19:30:00Z"
+  },
+  "category": 2,
+  "isDeleted": false
+},{
+  "_id": {
+    "$oid": "611a75d01a82cf86fde33b4e"
+  },
+  "title": "Note 20",
+  "brand": "Samsung",
+  "code": 4,
+  "registerDate": {
+    "$date": "2021-08-15T19:30:00Z"
+  },
+  "category": 1,
+  "isDeleted": false
+},{
+  "_id": {
+    "$oid": "611a75e41a82cf86fde33b4f"
+  },
+  "title": "Redmi Note 10",
+  "brand": "Xiaomi",
+  "code": 5,
+  "registerDate": {
+    "$date": "2021-08-15T19:30:00Z"
+  },
+  "category": 1,
+  "isDeleted": false
+},{
+  "_id": {
+    "$oid": "611aa44c39d7a851c8aa8538"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 2614,
+  "registerDate": {
+    "$date": "2021-08-16T17:45:48.917Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611aa46d4bd0a51d6c1e77fc"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 4889,
+  "registerDate": {
+    "$date": "2021-08-16T17:46:21.357Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3ab4e41522bd01474fb"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 478,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:23.929Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3b29926f9529caa9c12"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 138,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:30.733Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3b2d54a7c52f47c2979"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 4494,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:30.772Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3b22286f52b9c3d4920"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 125,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:30.827Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3b21df7544c541e94d1"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 2291,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:30.880Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3b35074502dec8999ed"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 2669,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:31.152Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3b6bb8b72134860dbc6"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 2350,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:34.123Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3b75d43531d38d2f150"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 1568,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:35.899Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3bf77e9842d7c7b86a2"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 2725,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:43.773Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3bf6923f13d54c053f4"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 3641,
+  "registerDate": {
+    "$date": "2021-08-16T18:51:43.773Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611ab3fbe4a393315c5bde30"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 4487,
+  "registerDate": {
+    "$date": "2021-08-16T18:52:43.275Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611abbe62891563464b74d4a"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 2924,
+  "registerDate": {
+    "$date": "2021-08-16T19:26:30.573Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611abc0d772d9049a07df057"
+  },
+  "title": "Redmi 6",
+  "brand": "Xiaomi",
+  "code": 3198,
+  "registerDate": {
+    "$date": "2021-08-16T19:27:09.570Z"
+  },
+  "category": 1,
+  "isDeleted": false,
+  "__v": 0
+}]

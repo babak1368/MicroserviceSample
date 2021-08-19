@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "611c4d01c9bbe10deda10742"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611aec021a82cf86fde33b78"
+  },
+  "expireTime": {
+    "$date": "2021-08-18T00:30:00Z"
+  },
+  "isDone": false,
+  "registerDate": "2021-08-18"
+}]

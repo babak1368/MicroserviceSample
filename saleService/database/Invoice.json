@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "611ae98f1a82cf86fde33b74"
+  },
+  "product": 1,
+  "quantity": 5,
+  "customer": 1,
+  "registerDate": {
+    "$date": "2021-08-16T19:30:00Z"
+  },
+  "isDeleted": true,
+  "code": 1
+},{
+  "_id": {
+    "$oid": "611aebf41a82cf86fde33b75"
+  },
+  "product": 2,
+  "quantity": 5,
+  "customer": 1,
+  "registerDate": {
+    "$date": "2021-08-16T19:30:00Z"
+  },
+  "isDeleted": true,
+  "code": 2
+}]

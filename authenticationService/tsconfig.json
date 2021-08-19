@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "allowJs": false,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es7"
+        ],
+        "target": "es6",
+        "strict": false,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "watch": true,
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        },
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "keyofStringsOnly": true,
+    },
+    "include": [
+        "**/*"
+    ]
+}

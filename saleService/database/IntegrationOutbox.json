@@ -1,0 +1,647 @@
+[{
+  "_id": {
+    "$oid": "611d851b7ccd4050d88ac412"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85117ccd4050d88ac410"
+  },
+  "targetCode": 341746129,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:21.641Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:31.762Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85257ccd4050d88ac417"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85257ccd4050d88ac415"
+  },
+  "targetCode": 253870031,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:41.195Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:41.460Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85277ccd4050d88ac41c"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85277ccd4050d88ac41a"
+  },
+  "targetCode": 109101822,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:43.398Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:43.691Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85297ccd4050d88ac421"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85287ccd4050d88ac41f"
+  },
+  "targetCode": 747983231,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:44.827Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:45.070Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d852a7ccd4050d88ac426"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d852a7ccd4050d88ac424"
+  },
+  "targetCode": 636706701,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:46.243Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:46.519Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d852b7ccd4050d88ac42b"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d852b7ccd4050d88ac429"
+  },
+  "targetCode": 277673190,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:47.611Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:47.866Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d852d7ccd4050d88ac430"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d852c7ccd4050d88ac42e"
+  },
+  "targetCode": 981956647,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:48.958Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:49.220Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d852e7ccd4050d88ac435"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d852e7ccd4050d88ac433"
+  },
+  "targetCode": 481326258,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:50.358Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:50.662Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85307ccd4050d88ac43a"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d852f7ccd4050d88ac438"
+  },
+  "targetCode": 289458360,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:51.773Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:52.049Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85317ccd4050d88ac43f"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85317ccd4050d88ac43d"
+  },
+  "targetCode": 775227367,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:53.138Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:53.404Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85327ccd4050d88ac444"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85327ccd4050d88ac442"
+  },
+  "targetCode": 770681986,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:54.542Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:54.805Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85347ccd4050d88ac449"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85347ccd4050d88ac447"
+  },
+  "targetCode": 823295417,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:56.155Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:56.431Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85357ccd4050d88ac44e"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85357ccd4050d88ac44c"
+  },
+  "targetCode": 452593848,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:57.564Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:57.821Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d85377ccd4050d88ac453"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d85377ccd4050d88ac451"
+  },
+  "targetCode": 974996758,
+  "expireTime": {
+    "$date": "2021-08-18T22:11:59.407Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:09:59.664Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d88cd412010449878bd76"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d88cc412010449878bd74"
+  },
+  "targetCode": 300796451,
+  "expireTime": {
+    "$date": "2021-08-18T22:26:16.971Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:25:17.248Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d88d0412010449878bd7b"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d88d0412010449878bd79"
+  },
+  "targetCode": 845497634,
+  "expireTime": {
+    "$date": "2021-08-18T22:26:20.208Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:25:20.490Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d88d2412010449878bd80"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d88d1412010449878bd7e"
+  },
+  "targetCode": 726591742,
+  "expireTime": {
+    "$date": "2021-08-18T22:26:21.922Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:25:22.187Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d88d3412010449878bd85"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d88d3412010449878bd83"
+  },
+  "targetCode": 972689480,
+  "expireTime": {
+    "$date": "2021-08-18T22:26:23.318Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:25:23.579Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d88d5412010449878bd8a"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d88d4412010449878bd88"
+  },
+  "targetCode": 684419669,
+  "expireTime": {
+    "$date": "2021-08-18T22:26:24.700Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:25:25.019Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d89e3f48f0d2734543b19"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d89dff48f0d2734543b17"
+  },
+  "targetCode": 824309072,
+  "expireTime": {
+    "$date": "2021-08-18T22:30:51.898Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:29:55.098Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d89e5f48f0d2734543b1e"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d89e5f48f0d2734543b1c"
+  },
+  "targetCode": 301494119,
+  "expireTime": {
+    "$date": "2021-08-18T22:30:57.055Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:29:57.309Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d89e7f48f0d2734543b23"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d89e7f48f0d2734543b21"
+  },
+  "targetCode": 530920267,
+  "expireTime": {
+    "$date": "2021-08-18T22:30:59.503Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:29:59.770Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d8aa2f48f0d2734543b46"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d8aa2f48f0d2734543b44"
+  },
+  "targetCode": 216395088,
+  "expireTime": {
+    "$date": "2021-08-18T22:34:06.193Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:33:06.504Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d8c64f48f0d2734543b65"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d8c64f48f0d2734543b63"
+  },
+  "targetCode": 508901716,
+  "expireTime": {
+    "$date": "2021-08-18T22:41:36.565Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:40:36.834Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d8c66f48f0d2734543b6a"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d8c66f48f0d2734543b68"
+  },
+  "targetCode": 483482304,
+  "expireTime": {
+    "$date": "2021-08-18T22:41:38.489Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T22:40:38.761Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d95d0f48f0d2734543bcb"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d95d0f48f0d2734543bc9"
+  },
+  "targetCode": 321814453,
+  "expireTime": {
+    "$date": "2021-08-18T23:21:48.229Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:20:48.498Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d9d26f48f0d2734543c16"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d9d26f48f0d2734543c14"
+  },
+  "targetCode": 392171291,
+  "expireTime": {
+    "$date": "2021-08-18T23:53:06.673Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:52:06.962Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d9df9f48f0d2734543c24"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d9df9f48f0d2734543c22"
+  },
+  "targetCode": 319552107,
+  "expireTime": {
+    "$date": "2021-08-18T23:56:37.397Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:55:37.679Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d9dfbf48f0d2734543c29"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d9dfaf48f0d2734543c27"
+  },
+  "targetCode": 25828110,
+  "expireTime": {
+    "$date": "2021-08-18T23:56:38.842Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:55:39.118Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d9dfcf48f0d2734543c2e"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d9dfcf48f0d2734543c2c"
+  },
+  "targetCode": 640232879,
+  "expireTime": {
+    "$date": "2021-08-18T23:56:40.278Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:55:40.550Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d9e0bf48f0d2734543c33"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d9e0bf48f0d2734543c31"
+  },
+  "targetCode": 816377953,
+  "expireTime": {
+    "$date": "2021-08-18T23:56:55.633Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:55:55.916Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d9e0ef48f0d2734543c38"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d9e0df48f0d2734543c36"
+  },
+  "targetCode": 883706740,
+  "expireTime": {
+    "$date": "2021-08-18T23:56:57.892Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:55:58.343Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611d9e0ff48f0d2734543c3d"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611d9e0ff48f0d2734543c3b"
+  },
+  "targetCode": 43507004,
+  "expireTime": {
+    "$date": "2021-08-18T23:56:59.542Z"
+  },
+  "deliveryAttempCount": 4,
+  "action": "Delete",
+  "isDone": true,
+  "registerDate": {
+    "$date": "2021-08-18T23:55:59.812Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "611da827e7199f1b04365bf8"
+  },
+  "targetCollection": "Customer",
+  "targetObjectId": {
+    "$oid": "611da824e7199f1b04365bf4"
+  },
+  "targetCode": 586139050,
+  "expireTime": {
+    "$date": "2021-08-19T00:40:00.799Z"
+  },
+  "deliveryAttempCount": 0,
+  "action": "Delete",
+  "isDone": false,
+  "registerDate": {
+    "$date": "2021-08-19T00:39:03.909Z"
+  },
+  "__v": 0
+}]
