@@ -49,7 +49,6 @@ updateHandler = async function (request, response) {
 deleteHandler = async function (request, response) {
     try {
         const data = request.body;
-
         let result = await customerRepository.remove({ code: data.code });
         return response.json(result).status(200);
     }
