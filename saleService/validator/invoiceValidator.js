@@ -1,44 +1,38 @@
-const validator = require("validator");
+const validator = require('validator');
 
-const validateCreate = function (request, response, next) {
-    const data = request.body;
-    let customeMessage;
+const validateCreate = function (req, res, next) {
+  const data = req.body;
+  let customeMessage;
 
-    validator.isEmpty(data['product']);
-    validator.isEmpty(data['quantity']);
-    validator.isEmpty(data['customer']);
-    // Something ELSE,   Added by Babak 
+  validator.isEmpty(data['product']);
+  validator.isEmpty(data['quantity']);
+  validator.isEmpty(data['customer']);
+  // Something ELSE,   Added by Babak
 
+  if (customeMessage) return res.send(customeMessage).status(400);
+  next();
+};
 
-    if (customeMessage)
-        return response.send(message).status(400);
-    next();
-}
+const validateUpdate = function (req, res, next) {
+  let customeMessage;
 
-const validateUpdate = function (request, response, next) {
-    const data = request.body;
-    let customeMessage;
+  // Bussiness validations                    // Added by babak
 
-    // Bussiness validations                    // Added by babak
+  if (customeMessage) return res.send(customeMessage).status(400);
+  next();
+};
 
-    if (customeMessage)
-        return response.send(message).status(400);
-    next();
-}
+const validateDelete = function (req, res, next) {
+  let customeMessage;
 
-const validateDelete = function (request, response, next) {
-    const data = request.body;
-    let customeMessage;
+  // Bussiness validations                    // Added by babak
 
-    // Bussiness validations                    // Added by babak
-
-    if (customeMessage)
-        return response.send(message).status(400);
-    next();
-}
+  if (customeMessage) return res.send(customeMessage).status(400);
+  next();
+};
 
 module.exports = {
-    validateCreate,
-    validateUpdate,
-    validateDelete
+  validateCreate,
+  validateUpdate,
+  validateDelete,
 };
