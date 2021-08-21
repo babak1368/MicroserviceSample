@@ -1,6 +1,6 @@
 module.exports = {
   dataBase: {
-    protocol: 'mongodb',
+    protocol: '',
     server: 'localhost',
     port: '27017',
     dataBaseName: 'Product',
