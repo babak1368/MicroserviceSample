@@ -7,6 +7,5 @@ authenticationService/node_modules
 saleService/package-lock.json
 authenticationService/package-lock.json
 saleService/config.js
-authenticationService/config/index.ts
 authenticationService/dist/
- 
+authenticationService/config/index.ts

@@ -1,7 +1,6 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
-process.env.NODE_ENV = process.env.NODE_ENV || 'production';
-
+process.env.NODE_ENV = process.env.NODE_ENV || "production";
 const envFound = dotenv.config();
 
 if (envFound.error) {
@@ -9,13 +8,11 @@ if (envFound.error) {
 }
 
 export default {
-
   port: parseInt(process.env.PORT, 10),
   jwtSecret: process.env.JWT_SECRET,
   jwtAlgorithm: process.env.JWT_ALGO,
 
   database: {
-
     host: "localhost",
     port: 1433,
     username: "YourOwnUserName",
@@ -24,14 +21,14 @@ export default {
     migrationsRun: false,
 
     synchronize: false,
-    logging: false
+    logging: false,
   },
 
   api: {
-    prefix: '/api',
+    prefix: "/api",
   },
 
   messageBroker: {
-    url: 'amqp://<yourUser>:<yourPassword>@localhost'
-  }
+    url: "amqp://<yourUser>:<yourPassword>@localhost",
+  },
 };

@@ -7,13 +7,9 @@ import { UserRepository } from "../dataAccess/userRepository";
 import UserController from "../controller/userController";
 
 const myContainer = new Container();
-
 myContainer.bind<RepositoryBase<any>>("RepositoryBase").to(RepositoryBase);
 myContainer.bind<EntityBase>("TEntity").to(EntityBase);
 myContainer.bind<Repository<any>>("Repository<T>").to(Repository);
-
 myContainer.bind<UserRepository>("UserRepository").to(UserRepository);
-
 myContainer.bind<UserController>("UserController").to(UserController);
-
 export { myContainer };

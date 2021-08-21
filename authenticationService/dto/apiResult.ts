@@ -1,34 +1,32 @@
-
 export default class ApiResult {
+  value: any;
+  success: boolean;
+  errorOriginalText: string;
+  errorCode: number | null;
+  text: string;
 
-    Value: any;
-    Success: boolean;
-    ErrorOriginalText: string;
-    ErrorCode: number | null;
-    Text: string;
+  static ok(value: any = null): ApiResult {
+    return {
+      value: value,
+      success: true,
+      text: "Successful",
+    } as ApiResult;
+  }
 
-    static ok(value: any = null): ApiResult {
-        return {
-            Value: value,
-            Success: true,
-            Text: 'Successful'
-        } as ApiResult;
-    }
+  static error(error: string = null): ApiResult {
+    return {
+      value: null,
+      success: false,
+      text: error,
+    } as ApiResult;
+  }
 
-    static error(error: string = null): ApiResult {
-        return {
-            Value: null,
-            Success: false,
-            Text: error
-        } as ApiResult;
-    }
-
-    static dbError(dbErrorText: string ): ApiResult {
-        return {
-            Value: null,
-            Success: false,
-            Text: 'Error in Db',
-            ErrorOriginalText: dbErrorText
-        } as ApiResult;
-    }
+  static dbError(dbErrorText: string): ApiResult {
+    return {
+      value: null,
+      success: false,
+      text: "Error in Db",
+      errorOriginalText: dbErrorText,
+    } as ApiResult;
+  }
 }

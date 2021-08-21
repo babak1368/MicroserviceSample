@@ -1,26 +1,25 @@
-import amqpcb from 'amqplib/callback_api';
-import CustomerConsumer from './customerConsumer';
-import Queue from './queue';
-import HooryLogger from '../loaders/loggerLoader';
-
+import amqpcb from "amqplib/callback_api";
+import CustomerConsumer from "./customerConsumer";
+import Queue from "./queue";
+import HooryLogger from "../loaders/loggerLoader";
 export default class CustomerQueue implements Queue {
+  name = "CustomerQueue";
+  options: any = { duarable: false };
 
-   name: string = 'CustomerQueue';
-   options: any = { duarable: false };
+  constructor(private channel: amqpcb.Channel) {
+    this.handler.apply(this);
+  }
 
-   constructor(private channel: amqpcb.Channel) {
-      this.handler.apply(this);
-   }
-
-   public handler(error: any, channel: amqpcb.Replies.AssertQueue) {
-      try {
-         let customerConsumer = new CustomerConsumer();
-         this.channel.consume(customerConsumer.name, customerConsumer.handler, customerConsumer.options);
-      }
-
-      catch (error) {
-         HooryLogger.getInstance().error(error);
-      }
-   }
-
+  public handler(error: any, channel: amqpcb.Replies.AssertQueue) {
+    try {
+      const customerConsumer = new CustomerConsumer();
+      this.channel.consume(
+        customerConsumer.name,
+        customerConsumer.handler,
+        customerConsumer.options
+      );
+    } catch (error) {
+      HooryLogger.getInstance().error(error);
+    }
+  }
 }

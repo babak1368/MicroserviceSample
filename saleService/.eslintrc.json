@@ -3,6 +3,7 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
-    "no-warning-comments": "error"
+    "no-warning-comments": "error",
+    "function-call-argument-newline": "off"
   }
 }

@@ -1,4 +1,3 @@
-
 export default abstract class BaseHandler {
-    abstract handle(message: any): void;
+  abstract handle(message: any): void;
 }

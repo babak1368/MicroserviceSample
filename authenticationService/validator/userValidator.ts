@@ -1,50 +1,35 @@
 import validator from "validator";
-
+import { Request, Response } from "express";
 export default class UserValidator {
+  validateLogin(req: Request, res: Response, next: any): any {
+    const data = req.body;
+    let customeMessage;
+    validator.isEmpty(data["userName"]);
+    if (customeMessage) return res.send(customeMessage).status(400);
+    next();
+  }
 
-    validateLogin(request: any, response: any, next: any) {
-        const data = request.body;
-        let customeMessage;
+  validateCreate(req: Request, res: Response, next: any): any {
+    const data = req.body;
+    let customeMessage;
+    // Bussiness validations
+    if (customeMessage) return res.send(customeMessage).status(400);
+    next();
+  }
 
-        validator.isEmpty(data['userName']);
-        // Something ELSE,   Added by Babak 
+  validateUpdate(req: Request, res: Response, next: any): any {
+    const data = req.body;
+    let customeMessage;
+    // Bussiness validations
+    if (customeMessage) return res.send(customeMessage).status(400);
+    next();
+  }
 
-        if (customeMessage)
-            return response.send(customeMessage).status(400);
-        next();
-    }
-
-    validateCreate(request: any, response: any, next: any) {
-        const data = request.body;
-        let customeMessage;
-
-        // Bussiness validations                    // Added by babak
-
-        if (customeMessage)
-            return response.send(customeMessage).status(400);
-        next();
-    }
-
-    validateUpdate(request: any, response: any, next: any) {
-        const data = request.body;
-        let customeMessage;
-
-        // Bussiness validations                    // Added by babak
-
-        if (customeMessage)
-            return response.send(customeMessage).status(400);
-        next();
-    }
-
-    validateDelete(request: any, response: any, next: any) {
-        const data = request.body;
-        let customeMessage;
-
-        // Bussiness validations                    // Added by babak
-
-        if (customeMessage)
-            return response.send(customeMessage).status(400);
-        next();
-    }
-
+  validateDelete(req: Request, res: Response, next: any): any {
+    const data = req.body;
+    let customeMessage;
+    // Bussiness validations
+    if (customeMessage) return res.send(customeMessage).status(400);
+    next();
+  }
 }

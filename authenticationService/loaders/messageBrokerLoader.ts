@@ -1,9 +1,5 @@
-import Initilizer from '../messageBroker/initilizer';
+import Initilizer from "../messageBroker/initilizer";
 
 export default async () => {
-
-   Initilizer.getInstance().initilize();
-
+  Initilizer.getInstance().initilize();
 };
-
-

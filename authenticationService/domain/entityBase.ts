@@ -1,6 +1,3 @@
 import { injectable } from "inversify";
-
 @injectable()
-export default class EntityBase    {
-
-}
+export default class EntityBase {}
