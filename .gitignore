@@ -2,6 +2,11 @@ authenticationService/log.log
 saleService/log.log
 authenticationService/.vscode
 saleService/.vscode
-node_modules
+saleService/node_modules
+authenticationService/node_modules
 saleService/package-lock.json
+authenticationService/package-lock.json
 saleService/config.js
+authenticationService/config/index.ts
+authenticationService/dist/
+ 
