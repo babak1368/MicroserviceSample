@@ -1,16 +1,16 @@
 module.exports = {
   dataBase: {
     protocol: 'mongodb',
-    server: '000',
-    port: '000',
+    server: 'localhost',
+    port: '27017',
     dataBaseName: 'Product',
   },
 
   cloudDataBase: {
     protocol: 'mongodb+srv',
-    userName: '000',
-    password: '000',
-    server: '000',
+    userName: 'babak',
+    password: 'Pass1234',
+    server: 'cluster0.ihomv.mongodb.net',
     port: '27017',
     dataBaseName: 'Sale',
   },
@@ -26,7 +26,7 @@ module.exports = {
   },
 
   messageBroker: {
-    url: 'amqp://000:000@localhost',
+    url: 'amqp://admin:Pass1234@localhost',
   },
 
   integrationParams: {
