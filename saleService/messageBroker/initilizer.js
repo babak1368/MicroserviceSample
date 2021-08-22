@@ -17,6 +17,11 @@ const createChannelCallback = function (error, channel) {
   }
 };
 
+const getChannel = function () {
+  return global.channel;
+};
+
 module.exports = {
   initilize,
+  getChannel,
 };
